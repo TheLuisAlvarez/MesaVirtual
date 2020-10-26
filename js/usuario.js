@@ -14,7 +14,7 @@ function VerificarUsuario(){
         }
     }).done(function(resp){
         if(resp==0){
-            Swal.fire('Mensaje de error', 'Usuario y/0 contrase\u00f1a incorrecta','error');
+            Swal.fire('Mensaje de error', 'Usuario y/o contrase\u00f1a incorrecta','error');
         }else{
             var data = JSON.parse(resp);
             if(data[0][5]==='INACTIVO'){

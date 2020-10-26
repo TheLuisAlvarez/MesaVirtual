@@ -9,7 +9,7 @@
 		    $this->servidor = "localhost";
 			$this->usuario = "root";
 			$this->contrasena = "";
-			$this->basedatos = "bd_sistema_mv";
+			$this->basedatos = "bd_curso";
 		}
 		function conectar(){
 			$this->conexion = new mysqli($this->servidor,$this->usuario,$this->contrasena,$this->basedatos);
